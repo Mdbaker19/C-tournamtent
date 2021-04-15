@@ -44,6 +44,7 @@ namespace TrackerUI
             // placenumberlabel
             // 
             this.placenumberlabel.AutoSize = true;
+            this.placenumberlabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.placenumberlabel.Location = new System.Drawing.Point(54, 24);
             this.placenumberlabel.Name = "placenumberlabel";
             this.placenumberlabel.Size = new System.Drawing.Size(108, 21);
@@ -53,6 +54,7 @@ namespace TrackerUI
             // PlaceNameLabel
             // 
             this.PlaceNameLabel.AutoSize = true;
+            this.PlaceNameLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.PlaceNameLabel.Location = new System.Drawing.Point(54, 80);
             this.PlaceNameLabel.Name = "PlaceNameLabel";
             this.PlaceNameLabel.Size = new System.Drawing.Size(92, 21);
@@ -62,6 +64,7 @@ namespace TrackerUI
             // prizeamountLabel
             // 
             this.prizeamountLabel.AutoSize = true;
+            this.prizeamountLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.prizeamountLabel.Location = new System.Drawing.Point(54, 139);
             this.prizeamountLabel.Name = "prizeamountLabel";
             this.prizeamountLabel.Size = new System.Drawing.Size(104, 21);
@@ -71,6 +74,7 @@ namespace TrackerUI
             // percentPrizeLabel
             // 
             this.percentPrizeLabel.AutoSize = true;
+            this.percentPrizeLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.percentPrizeLabel.Location = new System.Drawing.Point(12, 194);
             this.percentPrizeLabel.Name = "percentPrizeLabel";
             this.percentPrizeLabel.Size = new System.Drawing.Size(124, 21);
