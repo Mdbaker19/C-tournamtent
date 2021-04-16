@@ -45,7 +45,7 @@ namespace TrackerUI
             // 
             this.placenumberlabel.AutoSize = true;
             this.placenumberlabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.placenumberlabel.Location = new System.Drawing.Point(54, 24);
+            this.placenumberlabel.Location = new System.Drawing.Point(12, 29);
             this.placenumberlabel.Name = "placenumberlabel";
             this.placenumberlabel.Size = new System.Drawing.Size(108, 21);
             this.placenumberlabel.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace TrackerUI
             // 
             this.PlaceNameLabel.AutoSize = true;
             this.PlaceNameLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.PlaceNameLabel.Location = new System.Drawing.Point(54, 80);
+            this.PlaceNameLabel.Location = new System.Drawing.Point(12, 80);
             this.PlaceNameLabel.Name = "PlaceNameLabel";
             this.PlaceNameLabel.Size = new System.Drawing.Size(92, 21);
             this.PlaceNameLabel.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace TrackerUI
             // 
             this.prizeamountLabel.AutoSize = true;
             this.prizeamountLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.prizeamountLabel.Location = new System.Drawing.Point(54, 139);
+            this.prizeamountLabel.Location = new System.Drawing.Point(12, 136);
             this.prizeamountLabel.Name = "prizeamountLabel";
             this.prizeamountLabel.Size = new System.Drawing.Size(104, 21);
             this.prizeamountLabel.TabIndex = 2;
@@ -75,7 +75,7 @@ namespace TrackerUI
             // 
             this.percentPrizeLabel.AutoSize = true;
             this.percentPrizeLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.percentPrizeLabel.Location = new System.Drawing.Point(12, 194);
+            this.percentPrizeLabel.Location = new System.Drawing.Point(12, 212);
             this.percentPrizeLabel.Name = "percentPrizeLabel";
             this.percentPrizeLabel.Size = new System.Drawing.Size(124, 21);
             this.percentPrizeLabel.TabIndex = 3;
@@ -83,35 +83,35 @@ namespace TrackerUI
             // 
             // prizePlacenumbervalue
             // 
-            this.prizePlacenumbervalue.Location = new System.Drawing.Point(162, 21);
+            this.prizePlacenumbervalue.Location = new System.Drawing.Point(149, 26);
             this.prizePlacenumbervalue.Name = "prizePlacenumbervalue";
-            this.prizePlacenumbervalue.Size = new System.Drawing.Size(100, 29);
+            this.prizePlacenumbervalue.Size = new System.Drawing.Size(147, 29);
             this.prizePlacenumbervalue.TabIndex = 4;
             // 
             // prizeplacenamevalue
             // 
-            this.prizeplacenamevalue.Location = new System.Drawing.Point(162, 77);
+            this.prizeplacenamevalue.Location = new System.Drawing.Point(149, 77);
             this.prizeplacenamevalue.Name = "prizeplacenamevalue";
-            this.prizeplacenamevalue.Size = new System.Drawing.Size(100, 29);
+            this.prizeplacenamevalue.Size = new System.Drawing.Size(147, 29);
             this.prizeplacenamevalue.TabIndex = 5;
             // 
             // prizeamountValue
             // 
-            this.prizeamountValue.Location = new System.Drawing.Point(162, 136);
+            this.prizeamountValue.Location = new System.Drawing.Point(149, 133);
             this.prizeamountValue.Name = "prizeamountValue";
-            this.prizeamountValue.Size = new System.Drawing.Size(100, 29);
+            this.prizeamountValue.Size = new System.Drawing.Size(147, 29);
             this.prizeamountValue.TabIndex = 6;
             // 
             // prizePercentageValue
             // 
-            this.prizePercentageValue.Location = new System.Drawing.Point(162, 186);
+            this.prizePercentageValue.Location = new System.Drawing.Point(149, 209);
             this.prizePercentageValue.Name = "prizePercentageValue";
-            this.prizePercentageValue.Size = new System.Drawing.Size(100, 29);
+            this.prizePercentageValue.Size = new System.Drawing.Size(147, 29);
             this.prizePercentageValue.TabIndex = 7;
             // 
             // createPrizeButton
             // 
-            this.createPrizeButton.Location = new System.Drawing.Point(76, 253);
+            this.createPrizeButton.Location = new System.Drawing.Point(72, 298);
             this.createPrizeButton.Name = "createPrizeButton";
             this.createPrizeButton.Size = new System.Drawing.Size(174, 73);
             this.createPrizeButton.TabIndex = 8;
@@ -121,7 +121,7 @@ namespace TrackerUI
             // orlabel
             // 
             this.orlabel.AutoSize = true;
-            this.orlabel.Location = new System.Drawing.Point(294, 168);
+            this.orlabel.Location = new System.Drawing.Point(122, 173);
             this.orlabel.Name = "orlabel";
             this.orlabel.Size = new System.Drawing.Size(28, 21);
             this.orlabel.TabIndex = 9;
@@ -132,7 +132,7 @@ namespace TrackerUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(412, 447);
+            this.ClientSize = new System.Drawing.Size(360, 447);
             this.Controls.Add(this.orlabel);
             this.Controls.Add(this.createPrizeButton);
             this.Controls.Add(this.prizePercentageValue);

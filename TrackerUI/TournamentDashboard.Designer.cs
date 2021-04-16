@@ -50,9 +50,9 @@ namespace TrackerUI
             // tournamentToLoadDropDown
             // 
             this.tournamentToLoadDropDown.FormattingEnabled = true;
-            this.tournamentToLoadDropDown.Location = new System.Drawing.Point(296, 103);
+            this.tournamentToLoadDropDown.Location = new System.Drawing.Point(251, 112);
             this.tournamentToLoadDropDown.Name = "tournamentToLoadDropDown";
-            this.tournamentToLoadDropDown.Size = new System.Drawing.Size(214, 29);
+            this.tournamentToLoadDropDown.Size = new System.Drawing.Size(289, 29);
             this.tournamentToLoadDropDown.TabIndex = 1;
             // 
             // loadTournLabel
@@ -66,7 +66,7 @@ namespace TrackerUI
             // 
             // LoadATournBtn
             // 
-            this.LoadATournBtn.Location = new System.Drawing.Point(318, 165);
+            this.LoadATournBtn.Location = new System.Drawing.Point(318, 157);
             this.LoadATournBtn.Name = "LoadATournBtn";
             this.LoadATournBtn.Size = new System.Drawing.Size(153, 52);
             this.LoadATournBtn.TabIndex = 3;
@@ -75,7 +75,7 @@ namespace TrackerUI
             // 
             // CreateTournBtnDashBoard
             // 
-            this.CreateTournBtnDashBoard.Location = new System.Drawing.Point(318, 238);
+            this.CreateTournBtnDashBoard.Location = new System.Drawing.Point(318, 277);
             this.CreateTournBtnDashBoard.Name = "CreateTournBtnDashBoard";
             this.CreateTournBtnDashBoard.Size = new System.Drawing.Size(153, 62);
             this.CreateTournBtnDashBoard.TabIndex = 4;
